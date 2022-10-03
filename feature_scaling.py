@@ -58,7 +58,7 @@ scaling=StandardScaler()
 
 scaling.fit_transform(df[['Age','Salary']])
 
-"""Euclidean distance and gradient descent techniques
+"""The ML algos using Euclidean distance and gradient descent techniques such as
 knn, k-means clustering, Linear and Logistic Regression etc use feature scaling
 WHILE 
 XG Boost, Decisition Tree, Random Forset---> they do not need scaling
